@@ -1,0 +1,18 @@
+Source: nyan
+Section: misc
+Priority: optional
+Maintainer: CountOmega
+Build-Depends:
+ cmake,
+ flex,
+ make,
+ build-essential,
+ debhelper
+Rules-Requires-Root: no
+
+Package: nyan
+Version: 0.2
+Architecture: any
+Homepage: https://github.com/SFTtech/nyan
+Vcs-Git: https://github.com/SFTtech/nyan.git
+Description: nyan is a data description language
